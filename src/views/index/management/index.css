@@ -1,0 +1,33 @@
+.box{
+    width: 1536px;
+    min-height: 800px;
+    margin: auto;
+}
+.left{
+    width: 200px;
+    min-height: 800px;
+    text-align: center;
+    background: #C5CFEA;
+    color: #4E6694;
+}
+.left>p{
+    line-height: 38px;
+    margin: 0;
+}
+:global(p.active){
+    background: #AEBCDF;
+    color: blue;
+}
+.right{
+    width: 1336px;
+    min-height: 800px;
+    background: #F7F7F7;
+    padding: 20px;
+    overflow: auto;
+}
+:global(.btnC){
+    margin: 20px 0;
+}
+:global(.btnC button){
+    margin-right: 15px;
+}
