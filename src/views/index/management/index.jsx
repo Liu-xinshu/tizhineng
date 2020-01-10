@@ -56,7 +56,7 @@ class Manageement extends Component {
                             size="large"
                         >
                         </Spin>
-                        <Table dataSource={data} columns={columen} rowSelection={this.rowSelection} />
+                        <Table dataSource={data} columns={columen} rowSelection={this.rowSelection} rowKey={record=>record.id} />
                         <Pagination defaultCurrent={1} total={size} pageSize={limit} onChange={this.changePage.bind(this)} />
                     </div>
                 </div>
